@@ -1,6 +1,6 @@
 const https = require('https');
 
-const OPENWEATHER_API_KEY = process.env.OPENWEATHER_API_KEY || 'a05cf7d57fb67a8d78b03008fc734be5';
+const OPENWEATHER_API_KEY = process.env.OPENWEATHER_API_KEY;
 
 /**
  * Fetch current weather for given coordinates

@@ -1,6 +1,6 @@
 const https = require('https');
 
-const CALENDARIFIC_API_KEY = process.env.CALENDARIFIC_API_KEY || 'Bjh2nl4BqOSN1KptOXShCAS7HKVQcCFY';
+const CALENDARIFIC_API_KEY = process.env.CALENDARIFIC_API_KEY;
 
 // Cache holidays for the day to avoid repeated API calls
 const holidayCache = new Map();

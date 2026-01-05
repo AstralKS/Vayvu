@@ -1,0 +1,88 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+.vercel/
+*.local
+
+# Python
+ml/venv/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pth
+.Python
+*.egg-info/
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.lnk
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Data files (large/downloaded)
+*.kml
+*.rdf
+*.csv
+*.geojson
+!public/**/*.geojson
+
+# Test & Coverage
+coverage/
+.nyc_output/
+*.lcov
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+.npm/
+*.tsbuildinfo
+
+# ML model outputs
+*.onnx
+*.pkl
+*.joblib
+ml/data/
+ml/checkpoints/
+
+# Misc
+*.bak
+*.tmp
+*.temp
